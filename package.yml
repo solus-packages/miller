@@ -1,0 +1,16 @@
+name       : miller
+version    : 5.0.0
+release    : 1
+source     :
+    - https://github.com/johnkerl/miller/archive/v5.0.0.tar.gz : 28fe39efd83b3134261fc5614d429f0f5df940036a4cf7577dc1a95bb9e2eec7
+license    : BSD-2-Clause
+component  : programming.tools
+summary    : Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON
+description: |
+    Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON
+setup      : |
+    %reconfigure
+build      : |
+    %make
+install    : |
+    %make_install

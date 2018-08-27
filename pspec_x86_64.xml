@@ -2,8 +2,8 @@
     <Source>
         <Name>miller</Name>
         <Packager>
-            <Name>Michael Meinertzhagen</Name>
-            <Email>mmeinert@protonmail.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>BSD-2-Clause</License>
         <PartOf>programming.tools</PartOf>
@@ -19,17 +19,17 @@
 </Description>
         <PartOf>programming.tools</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="executable">/usr/bin/mlr</Path>
+            <Path fileType="man">/usr/share/man/man1/mlr.1</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2017-04-15</Date>
-            <Version>5.1.0</Version>
+        <Update release="3">
+            <Date>2018-08-27</Date>
+            <Version>5.3.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Michael Meinertzhagen</Name>
-            <Email>mmeinert@protonmail.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
